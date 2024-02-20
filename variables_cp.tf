@@ -62,7 +62,7 @@ variable "branch_name" {
 variable "codestar_connector_credentials" {
   description = "codestar_connector_credentials"
   type        = string
-  default     = "arn:aws:codestar-connections:us-east-1:654654434704:connection/8886c481-372f-4f99-a632-0f11ba5bf813"
+  default     = "arn:aws:codestar-connections:us-east-1:#######:connection/#######"
   sensitive   = true # Consider marking sensitive variables
 }
 
